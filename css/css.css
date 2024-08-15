@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.formulario {
+    margin-top: 20px;
+    display: none;
+    text-align: left;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#imagenContainer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+input[type="number"] {
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.btn-calcular {
+    background-color: #ff9800;
+}
+
+.btn-calcular:hover {
+    background-color: #e68900;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    background-color: #f1f1f1;
+    font-size: 1.2em;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
