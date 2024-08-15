@@ -10,7 +10,7 @@ function mostrarFormulario() {
 
     switch(figura) {
         case 'circulo':
-            imagenFigura.src = 'Figuras/circulo.png';
+            imagenFigura.src = 'Figuras/Circulo.png';
             inputs.innerHTML = '<label for="radio">Radio:</label><input type="number" id="radio" placeholder="Radio">';
             break;
         case 'cuadrado':
